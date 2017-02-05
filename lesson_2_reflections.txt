@@ -1,3 +1,12 @@
 1- O que acontece ao iniciar um repositório? Por que você precisa fazer isso?
 o git criou um diretório oculto .git e está pronto para versionar os meus arquivos. Eu preciso fazer isso para transformar
 uma pasta normal em um repositório git.
+
+2 - Em que se difere a área de preparação do diretório de trabalho e do repositório?
+Qual valor você acha que ela oferece?
+
+A área de preparação só contem os arquivos que serão enviados para o commit, enquanto a o repositório
+contem todos os arquivos que estão sendo trilhados pelo git.
+A áre de preparação oferece vários benefícios, dentre eles podemos citar:
+- O controle de quais arquivos poderão ir para um commit
+- Visualizar a lista de arquivos do próximo commit
