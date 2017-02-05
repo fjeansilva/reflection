@@ -1,0 +1,3 @@
+1- O que acontece ao iniciar um repositório? Por que você precisa fazer isso?
+o git criou um diretório oculto .git e está pronto para versionar os meus arquivos. Eu preciso fazer isso para transformar
+uma pasta normal em um repositório git.

@@ -1,0 +1,39 @@
+1- Como a visualização de um diff entre duas versões de um arquivo ajuda você a ver o bug que foi introduzido?
+O diff facilita a visualizar o que existe de diferente entre os dois arquivos e com uma boa análise
+fica possível ver o erro.
+
+2- Como ter fácil acesso a todo o histórico de um arquivo pode torná-lo um programador mais eficiente no longo prazo?
+Posso ver a evolução do código, um histórico das implementação de cada funcionalidade.
+Com isso facilita muito para entender toda a evolução do sistema.
+
+3- Na sua opinião, quais são os prós e contras de escolher manualmente quando criar um commit, como ocorre no Git,
+v. o salvamento automático de versões, como no Google Docs?
+
+Git
+prós: posso determinar o momento de cada commmit, podendo gerar versões que fazem sentido
+contra: por ser um processo manual poderá haver falhas, por exemplo esquecer de commitar uma alteração importante
+
+Google Docs
+prós: não preciso me preocupar com o versionamento, ele gera automaticamente :)
+contra: vou ter muitas versões do arquivo, vai ser complicado navegar no histórico de alterações
+
+
+4 - Por que você acha que alguns sistemas de controle de versão, como o Git, permitem salvar vários arquivos em um commit,
+enquanto outros, como o Google Docs, tratam cada arquivo separadamente?
+
+O Git permite salvar vários arquivos, porque no fluxo de trabalho diário o desenvolvedor vai manipular mais de um arquivo
+sendo assim a melhor forma de organizar o controle das versões é gerar commit com multiplos arquivos.
+
+No caso do Google Docs, o usuário manipula apenas um arquivo não faz sentido gerar commit de multiplos arquivos.
+
+5 -  Como usar os comandos git log e git diff para visualizar o histórico dos arquivos?
+Com um diretorio já sendo mapeado pelo git é bem simples, conferir versões anteriores dos commits
+basta executar no terminal git log, verificar os ids dos commits que você gostaria de comparar
+digitar git diff first_commit second_commit e vualá :D
+
+6- De que modo o controle de versão pode dar a você mais segurança para fazer alterações que podem danificar algo?
+Posso realizar as tarefas normalmente quando for detectado algum bug posso simplesmente voltar a commits anteriores
+para trilhar em qual commit o bug foi instroduzido para que eu possa corrigi-lo.
+
+7 - Agora que você já configurou a sua área de trabalho, você quer usar o Git para quê?
+Para versionar o meus arquivos.
