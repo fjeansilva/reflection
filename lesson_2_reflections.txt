@@ -10,3 +10,18 @@ contem todos os arquivos que estão sendo trilhados pelo git.
 A áre de preparação oferece vários benefícios, dentre eles podemos citar:
 - O controle de quais arquivos poderão ir para um commit
 - Visualizar a lista de arquivos do próximo commit
+
+3- Como você pode usar a área de preparação para garantir que tenha um commit por alteração lógica?
+Usando os commandos de git diff e git diff --staged posso verificar os itens que realmente estou alterando
+e dar o commit somente neles.
+
+4 - Quais são algumas das situações em que branches seriam úteis para manter seu histórico organizado?
+Como branches ajudariam?
+
+5 - Posso usar o branches para organizar meu ambiente de desenvolvimento, ambiente de homologação e produção.
+Os branches auxiliaram com essa tarefa, separando o código de acordo com o ambiente que eu estiver trabalhando
+os deploys seriam facilitados e controlados.
+
+6 - Como os diagramas ajudam a visualizar a estrutura de branches?
+Os diagramas auxiliam numa visão detalhada de cada branches e os commits vinculados, isso ajuda  a entender melhor
+toda a estrutura e projetar as evoluções.
